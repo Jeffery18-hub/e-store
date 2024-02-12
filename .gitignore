@@ -7,3 +7,5 @@ node_modules/
 # mac os hidden files
 .DS_Store
 
+# git
+.git
