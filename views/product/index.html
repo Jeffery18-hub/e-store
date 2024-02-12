@@ -1,78 +1,81 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <style>
-            * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        } 
-            .product-img:hover {
-                outline: 0.5rem solid rgb(64, 63, 5);
-            }
-            table {
-                border-collapse: collapse;
-            }
-            th,
-            td {
-                border: 1px solid black;
-                padding: 10px;
-            }
-        </style>
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .product-img:hover {
+        outline: 0.5rem solid rgb(64, 63, 5);
+      }
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      style="display: flex; flex-direction: column; min-height: 100vh"
+    >
+      <div id="single-product-container " style="display: flex; flex: 3">
         <div
-            id="root"
-            style="display: flex; flex-direction: column; min-height: 100vh"
+          id="img-container"
+          style="
+            flex: 1;
+            padding: 10px;
+            border: 1px solid black;
+            position: relative;
+          "
         >
-            <div id="single-product-container " style="display: flex; flex: 3">
-                <div
-                    id="img-container"
-                    style="
-                        flex: 1;
-                        padding: 10px;
-                        border: 1px solid black;
-                        position: relative;
-                    "
-                >
-                    <img
-                        src="../../images/acer.jpg"
-                        style="width: 50%; height: 50%;position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);"
-                        alt="product image"
-
-                    />
-                </div>
-                <div
-                    id="table-container"
-                    style="flex: 1; padding: 10px; border: 1px solid black"
-                >
-                    <table style="border: 1px solid black">
-                        <thead>
-                            <th>ID</th>
-                            <th>Brand</th>
-                            <th>Category</th>
-                            <th>Title</th>
-                            <th>Description</th>
-                            <th>Price</th>
-                            <th>Stock</th>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-                    <button
-                        id="like-btn"
-                        style="display: none; margin-top: 1rem"
-                    >
-                        Like
-                    </button>
-                </div>
-            </div>
-            <div
-                id="other-products-container"
-                style="display: flex; flex: 1; overflow: scroll"
-            ></div>
+          <img
+            src="../../images/acer.jpg"
+            style="
+              width: 50%;
+              height: 50%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            "
+            alt="product image"
+          />
         </div>
-        <script src="script.js"></script>
-    </body>
+        <div
+          id="table-container"
+          style="flex: 1; padding: 10px; border: 1px solid black"
+        >
+          <table style="border: 1px solid black">
+            <thead>
+              <th>ID</th>
+              <th>Brand</th>
+              <th>Category</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Stock</th>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <button id="like-btn" style="display: none; margin-top: 1rem">
+            Like
+          </button>
+        </div>
+      </div>
+      <div
+        id="other-products-container"
+        style="display: flex; flex: 1; overflow: scroll"
+      ></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

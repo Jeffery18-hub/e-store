@@ -8,24 +8,23 @@ const categories = ['Fridges', 'Kettles', 'Televisions'];
 let products = [];
 // Generate 6 products for each brand
 brands.forEach((brand) => {
-    for (let i = 0; i < 6; i++) {
-        const category =
-            categories[Math.floor(Math.random() * categories.length)];
-        const product = {
-            brand: brand,
-            category: category,
-            title: `${brand} ${faker.commerce.productName()}`,
-            price: faker.commerce.price(),
-            description: faker.commerce.productDescription(),
-            stock: faker.datatype.number({ min: 0, max: 100 }),
-        };
-        products.push(product);
-    }
+  for (let i = 0; i < 6; i++) {
+    const category = categories[Math.floor(Math.random() * categories.length)];
+    const product = {
+      brand: brand,
+      category: category,
+      title: `${brand} ${faker.commerce.productName()}`,
+      price: faker.commerce.price(),
+      description: faker.commerce.productDescription(),
+      stock: faker.datatype.number({ min: 0, max: 100 }),
+    };
+    products.push(product);
+  }
 });
 
 const data = {
-    categories,
-    products,
+  categories,
+  products,
 };
 
 // export data to a file
