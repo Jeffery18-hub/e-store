@@ -1,4 +1,4 @@
-import { Schema, model, Types} from "mongoose";
+import { Schema, model, Types } from 'mongoose';
 
 const UserSchema = new Schema({
     username: {
@@ -15,11 +15,13 @@ const UserSchema = new Schema({
         type: String,
         required: true,
     },
-    likes: [{
-        type: Types.ObjectId,
-        ref: 'Product'
-    }]
-})
+    likes: [
+        {
+            type: Types.ObjectId,
+            ref: 'Product',
+        },
+    ],
+});
 
 const User = model('User', UserSchema, 'User');
 

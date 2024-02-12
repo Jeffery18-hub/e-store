@@ -1,86 +1,105 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      nav {
-  background: #f4f4f4;
-  padding: 0.5rem 1rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-  margin-right: 1rem;
-}
-      .product-img:hover {
-        outline: 0.5rem solid rgb(64, 63, 5);
-      }
-    </style>
-  </head>
-  <body>
-    <div id="root" style="display: flex; flex-direction: column; min-height: 100vh;">
-      <nav id="nav" style="height: 2rem;">
-        <a id="home-link" href="/">Home</a>
-        <a id="login-link" href="/login">Login</a>
-        <a id="signup-link" href="/signup">Signup</a>
-        <a id="logout-link" href="/">Logout</a>
-      </nav>
-      <main style="display: flex; flex-grow: 1;">
-        <div id="left-product-container" style="box-shadow: 0 0 0 0.5px #000; flex: 4; ">
-          <div id="filter-panel" style="padding: 10px;">
-            <div id="brand-filter">
-              <p>Filter by Brand: </p>
-              <input type="checkbox" id="sony" name="brand", value="Sony"/>
-              <label for="sony">Sony</label>
-              <input type="checkbox" id="samsung" name="brand", value="Samsung"/>
-              <label for="samsung">Samsung</label>
-              <input type="checkbox" id="lg" name="brand", value="LG"/>
-              <label for="lg">LG</label>
-              <input type="checkbox" id="panasonic" name="brand", value="Panasonic"/>
-              <label for="panasonic">Panasonic</label>
-              <input type="checkbox" id="lenovo" name="brand", value="Lenovo"/>
-              <label for="lenovo">Lenovo</label>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div id="root">
+            <nav id="nav">
+                <a id="home-link" href="/">Home</a>
+                <a id="login-link" href="/login">Login</a>
+                <a id="signup-link" href="/signup">Signup</a>
+                <a id="logout-link" href="/">Logout</a>
+            </nav>
+            <div id="main-aside-container">
+                <main>
+                    <div id="filter-panel">
+                        <div id="brand-filter">
+                            <p>Filter by Brand:</p>
+                            <input
+                                type="checkbox"
+                                id="sony"
+                                name="brand"
+                                value="Sony"
+                            />
+                            <label for="sony">Sony</label>
+                            <input
+                                type="checkbox"
+                                id="samsung"
+                                name="brand"
+                                value="Samsung"
+                            />
+                            <label for="samsung">Samsung</label>
+                            <input
+                                type="checkbox"
+                                id="lg"
+                                name="brand"
+                                value="LG"
+                            />
+                            <label for="lg">LG</label>
+                            <input
+                                type="checkbox"
+                                id="panasonic"
+                                name="brand"
+                                value="Panasonic"
+                            />
+                            <label for="panasonic">Panasonic</label>
+                            <input
+                                type="checkbox"
+                                id="lenovo"
+                                name="brand"
+                                value="Lenovo"
+                            />
+                            <label for="lenovo">Lenovo</label>
+                        </div>
+                        <div id="category-filter">
+                            <p>Filter by Category:</p>
+                            <input
+                                type="checkbox"
+                                id="fridges"
+                                name="category"
+                                value="Fridges"
+                            />
+                            <label for="fridges">Fridges</label>
+                            <input
+                                type="checkbox"
+                                id="kettles"
+                                name="category"
+                                value="Kettles"
+                            />
+                            <label for="kettles">Kettles</label>
+                            <input
+                                type="checkbox"
+                                id="televisions"
+                                name="category"
+                                value="Televisions"
+                            />
+                            <label for="televisions">Televisions</label>
+                        </div>
+                        <div id="filter-btns">
+                          <button id="filter-confirm-btn">confirm</button>
+                          <button id="filter-reset-btn">reset</button>
+                      </div>
+                    </div>
+                    <div id="pics-gallery">
+                        <button id="load-left">Left</button>
+                        <div id="pics-grid"></div>
+                        <button id="load-right">Right</button>
+                    </div>
+                </main>
+                <aside id="favorite">
+                  <h3>Favorites</h3>
+                  <ul id="favorite-list"></ul>
+                  <div id="favorite-login-hint">
+                      <p>No products found</p>
+                      <a id="login-link-aside" href="/login">Login to view</a>
+                  </div>
+                </aside>
             </div>
-            <div id="category-filter">
-              <p>Filter by Category: </p>
-              <input type="checkbox" id="fridges" name="category", value="Fridges"/>
-              <label for="fridges">Fridges</label>
-              <input type="checkbox" id="kettles" name="category", value="Kettles"/>
-              <label for="kettles">Kettles</label>
-              <input type="checkbox" id="televisions" name="category", value="Televisions"/>
-              <label for="televisions">Televisions</label>
-            </div>
-          </div>
-          <div style="padding: 10px;">
-            <button id="filter-confirm-btn">confirm</button>
-            <button id="filter-reset-btn">reset</button>
-          </div>
-          <div id="pics-gallery" style="padding: 10px; display: flex; align-items: center;">
-            <button id="load-left" style="height: 20px; width: 60px;" disabled="true">Left</button>
-            <div 
-              id="3-3-grid" 
-              style="display: grid; grid-template-columns: repeat(3, 1fr); 
-                grid-template-rows: repeat(3, 1fr);">
-            </div>
-            <button id="load-right" style="height: 20px; width: 60px;">Right</button>
-          </div>
-          <div>
-            <iframe src="./others/index.html " style="width: 200px; height: 200px; display: none;"></iframe>
-          </div>
         </div>
-        <aside id="favorite" style="box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);; flex: 1;">
-          <h3 style="text-align: center;">Favorites</h3>
-          <ul id="favorite-list"></ul>
-          <div id="favorite-login-hint">
-            <p style="text-align: center;">No products found</p>
-            <a id="login-link-aside" href="/login"><p style="text-align: center;">Login to view</p></a>
-          </div>
-        </aside>
-      </main>
-    </div>
-    <script src="script.js"></script>
-  </body>
+        <script src="script.js"></script>
+    </body>
 </html>

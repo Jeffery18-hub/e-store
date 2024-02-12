@@ -1,0 +1,9 @@
+# no .env file
+.env
+
+# no node_modules
+node_modules/
+
+# mac os hidden files
+.DS_Store
+

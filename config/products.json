@@ -1,249 +1,245 @@
 {
-  "categories": [
-    "Fridges",
-    "Kettles",
-    "Televisions"
-  ],
-  "products": [
-    {
-      "brand": "Samsung",
-      "category": "Kettles",
-      "title": "Samsung Elegant Metal Computer",
-      "price": "879.00",
-      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "stock": 39
-    },
-    {
-      "brand": "Samsung",
-      "category": "Fridges",
-      "title": "Samsung Oriental Plastic Sausages",
-      "price": "89.00",
-      "description": "The Football Is Good For Training And Recreational Purposes",
-      "stock": 98
-    },
-    {
-      "brand": "Samsung",
-      "category": "Fridges",
-      "title": "Samsung Unbranded Granite Computer",
-      "price": "903.00",
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "stock": 22
-    },
-    {
-      "brand": "Samsung",
-      "category": "Televisions",
-      "title": "Samsung Rustic Wooden Bacon",
-      "price": "797.00",
-      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "stock": 70
-    },
-    {
-      "brand": "Samsung",
-      "category": "Kettles",
-      "title": "Samsung Small Cotton Bacon",
-      "price": "119.00",
-      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-      "stock": 60
-    },
-    {
-      "brand": "Samsung",
-      "category": "Televisions",
-      "title": "Samsung Bespoke Soft Gloves",
-      "price": "36.00",
-      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-      "stock": 98
-    },
-    {
-      "brand": "LG",
-      "category": "Televisions",
-      "title": "LG Fantastic Metal Salad",
-      "price": "194.00",
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "stock": 65
-    },
-    {
-      "brand": "LG",
-      "category": "Televisions",
-      "title": "LG Handmade Concrete Hat",
-      "price": "660.00",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "stock": 17
-    },
-    {
-      "brand": "LG",
-      "category": "Fridges",
-      "title": "LG Intelligent Frozen Chair",
-      "price": "746.00",
-      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-      "stock": 26
-    },
-    {
-      "brand": "LG",
-      "category": "Kettles",
-      "title": "LG Unbranded Plastic Mouse",
-      "price": "262.00",
-      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "stock": 49
-    },
-    {
-      "brand": "LG",
-      "category": "Kettles",
-      "title": "LG Unbranded Soft Soap",
-      "price": "399.00",
-      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "stock": 58
-    },
-    {
-      "brand": "LG",
-      "category": "Kettles",
-      "title": "LG Small Rubber Car",
-      "price": "648.00",
-      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-      "stock": 34
-    },
-    {
-      "brand": "Panasonic",
-      "category": "Kettles",
-      "title": "Panasonic Licensed Frozen Bike",
-      "price": "681.00",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "stock": 22
-    },
-    {
-      "brand": "Panasonic",
-      "category": "Fridges",
-      "title": "Panasonic Luxurious Wooden Bike",
-      "price": "175.00",
-      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "stock": 2
-    },
-    {
-      "brand": "Panasonic",
-      "category": "Fridges",
-      "title": "Panasonic Handcrafted Concrete Shoes",
-      "price": "724.00",
-      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "stock": 71
-    },
-    {
-      "brand": "Panasonic",
-      "category": "Fridges",
-      "title": "Panasonic Handcrafted Fresh Table",
-      "price": "191.00",
-      "description": "The Football Is Good For Training And Recreational Purposes",
-      "stock": 75
-    },
-    {
-      "brand": "Panasonic",
-      "category": "Televisions",
-      "title": "Panasonic Unbranded Plastic Chips",
-      "price": "993.00",
-      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-      "stock": 85
-    },
-    {
-      "brand": "Panasonic",
-      "category": "Fridges",
-      "title": "Panasonic Oriental Fresh Gloves",
-      "price": "632.00",
-      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "stock": 31
-    },
-    {
-      "brand": "Sony",
-      "category": "Televisions",
-      "title": "Sony Awesome Frozen Cheese",
-      "price": "188.00",
-      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "stock": 19
-    },
-    {
-      "brand": "Sony",
-      "category": "Fridges",
-      "title": "Sony Refined Wooden Keyboard",
-      "price": "587.00",
-      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-      "stock": 1
-    },
-    {
-      "brand": "Sony",
-      "category": "Televisions",
-      "title": "Sony Generic Rubber Ball",
-      "price": "276.00",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "stock": 45
-    },
-    {
-      "brand": "Sony",
-      "category": "Fridges",
-      "title": "Sony Gorgeous Concrete Tuna",
-      "price": "139.00",
-      "description": "The Football Is Good For Training And Recreational Purposes",
-      "stock": 22
-    },
-    {
-      "brand": "Sony",
-      "category": "Fridges",
-      "title": "Sony Handcrafted Soft Salad",
-      "price": "10.00",
-      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "stock": 28
-    },
-    {
-      "brand": "Sony",
-      "category": "Kettles",
-      "title": "Sony Intelligent Fresh Ball",
-      "price": "794.00",
-      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "stock": 100
-    },
-    {
-      "brand": "Lenovo",
-      "category": "Kettles",
-      "title": "Lenovo Elegant Wooden Hat",
-      "price": "708.00",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "stock": 63
-    },
-    {
-      "brand": "Lenovo",
-      "category": "Kettles",
-      "title": "Lenovo Small Frozen Ball",
-      "price": "282.00",
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "stock": 95
-    },
-    {
-      "brand": "Lenovo",
-      "category": "Fridges",
-      "title": "Lenovo Luxurious Steel Shirt",
-      "price": "129.00",
-      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "stock": 45
-    },
-    {
-      "brand": "Lenovo",
-      "category": "Televisions",
-      "title": "Lenovo Unbranded Fresh Pants",
-      "price": "311.00",
-      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-      "stock": 30
-    },
-    {
-      "brand": "Lenovo",
-      "category": "Kettles",
-      "title": "Lenovo Luxurious Granite Towels",
-      "price": "454.00",
-      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-      "stock": 4
-    },
-    {
-      "brand": "Lenovo",
-      "category": "Fridges",
-      "title": "Lenovo Ergonomic Metal Pants",
-      "price": "381.00",
-      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "stock": 87
-    }
-  ]
+    "categories": ["Fridges", "Kettles", "Televisions"],
+    "products": [
+        {
+            "brand": "Samsung",
+            "category": "Kettles",
+            "title": "Samsung Elegant Metal Computer",
+            "price": "879.00",
+            "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+            "stock": 39
+        },
+        {
+            "brand": "Samsung",
+            "category": "Fridges",
+            "title": "Samsung Oriental Plastic Sausages",
+            "price": "89.00",
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "stock": 98
+        },
+        {
+            "brand": "Samsung",
+            "category": "Fridges",
+            "title": "Samsung Unbranded Granite Computer",
+            "price": "903.00",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "stock": 22
+        },
+        {
+            "brand": "Samsung",
+            "category": "Televisions",
+            "title": "Samsung Rustic Wooden Bacon",
+            "price": "797.00",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "stock": 70
+        },
+        {
+            "brand": "Samsung",
+            "category": "Kettles",
+            "title": "Samsung Small Cotton Bacon",
+            "price": "119.00",
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "stock": 60
+        },
+        {
+            "brand": "Samsung",
+            "category": "Televisions",
+            "title": "Samsung Bespoke Soft Gloves",
+            "price": "36.00",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "stock": 98
+        },
+        {
+            "brand": "LG",
+            "category": "Televisions",
+            "title": "LG Fantastic Metal Salad",
+            "price": "194.00",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "stock": 65
+        },
+        {
+            "brand": "LG",
+            "category": "Televisions",
+            "title": "LG Handmade Concrete Hat",
+            "price": "660.00",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "stock": 17
+        },
+        {
+            "brand": "LG",
+            "category": "Fridges",
+            "title": "LG Intelligent Frozen Chair",
+            "price": "746.00",
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "stock": 26
+        },
+        {
+            "brand": "LG",
+            "category": "Kettles",
+            "title": "LG Unbranded Plastic Mouse",
+            "price": "262.00",
+            "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+            "stock": 49
+        },
+        {
+            "brand": "LG",
+            "category": "Kettles",
+            "title": "LG Unbranded Soft Soap",
+            "price": "399.00",
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "stock": 58
+        },
+        {
+            "brand": "LG",
+            "category": "Kettles",
+            "title": "LG Small Rubber Car",
+            "price": "648.00",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "stock": 34
+        },
+        {
+            "brand": "Panasonic",
+            "category": "Kettles",
+            "title": "Panasonic Licensed Frozen Bike",
+            "price": "681.00",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "stock": 22
+        },
+        {
+            "brand": "Panasonic",
+            "category": "Fridges",
+            "title": "Panasonic Luxurious Wooden Bike",
+            "price": "175.00",
+            "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+            "stock": 2
+        },
+        {
+            "brand": "Panasonic",
+            "category": "Fridges",
+            "title": "Panasonic Handcrafted Concrete Shoes",
+            "price": "724.00",
+            "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+            "stock": 71
+        },
+        {
+            "brand": "Panasonic",
+            "category": "Fridges",
+            "title": "Panasonic Handcrafted Fresh Table",
+            "price": "191.00",
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "stock": 75
+        },
+        {
+            "brand": "Panasonic",
+            "category": "Televisions",
+            "title": "Panasonic Unbranded Plastic Chips",
+            "price": "993.00",
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "stock": 85
+        },
+        {
+            "brand": "Panasonic",
+            "category": "Fridges",
+            "title": "Panasonic Oriental Fresh Gloves",
+            "price": "632.00",
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "stock": 31
+        },
+        {
+            "brand": "Sony",
+            "category": "Televisions",
+            "title": "Sony Awesome Frozen Cheese",
+            "price": "188.00",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "stock": 19
+        },
+        {
+            "brand": "Sony",
+            "category": "Fridges",
+            "title": "Sony Refined Wooden Keyboard",
+            "price": "587.00",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "stock": 1
+        },
+        {
+            "brand": "Sony",
+            "category": "Televisions",
+            "title": "Sony Generic Rubber Ball",
+            "price": "276.00",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "stock": 45
+        },
+        {
+            "brand": "Sony",
+            "category": "Fridges",
+            "title": "Sony Gorgeous Concrete Tuna",
+            "price": "139.00",
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "stock": 22
+        },
+        {
+            "brand": "Sony",
+            "category": "Fridges",
+            "title": "Sony Handcrafted Soft Salad",
+            "price": "10.00",
+            "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+            "stock": 28
+        },
+        {
+            "brand": "Sony",
+            "category": "Kettles",
+            "title": "Sony Intelligent Fresh Ball",
+            "price": "794.00",
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "stock": 100
+        },
+        {
+            "brand": "Lenovo",
+            "category": "Kettles",
+            "title": "Lenovo Elegant Wooden Hat",
+            "price": "708.00",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "stock": 63
+        },
+        {
+            "brand": "Lenovo",
+            "category": "Kettles",
+            "title": "Lenovo Small Frozen Ball",
+            "price": "282.00",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "stock": 95
+        },
+        {
+            "brand": "Lenovo",
+            "category": "Fridges",
+            "title": "Lenovo Luxurious Steel Shirt",
+            "price": "129.00",
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "stock": 45
+        },
+        {
+            "brand": "Lenovo",
+            "category": "Televisions",
+            "title": "Lenovo Unbranded Fresh Pants",
+            "price": "311.00",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "stock": 30
+        },
+        {
+            "brand": "Lenovo",
+            "category": "Kettles",
+            "title": "Lenovo Luxurious Granite Towels",
+            "price": "454.00",
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "stock": 4
+        },
+        {
+            "brand": "Lenovo",
+            "category": "Fridges",
+            "title": "Lenovo Ergonomic Metal Pants",
+            "price": "381.00",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "stock": 87
+        }
+    ]
 }
